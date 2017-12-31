@@ -1,0 +1,4 @@
+flask==0.12.2
+flask-cors=3.0.3
+spacy==1.9.0
+-e https://github.com/explosion/spacy-models/releases/download/en_core_web_md-1.2.1/en_core_web_md-1.2.1.tar.gz

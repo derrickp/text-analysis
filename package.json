@@ -1,0 +1,27 @@
+{
+  "name": "text-analysis",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": "https://github.com/derrickp/text-analysis.git",
+  "author": "Derrick Plotsky <derrickplotsky@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack && npm run copy-static && echo Build complete",
+    "build-production": "webpack -p && echo Production build complete",
+    "dev-start": "http-server",
+    "copy-static": "cpy index.html static"
+  },
+  "dependencies": {
+    "@types/react": "^16.0.2",
+    "@types/react-dom": "^15.5.3",
+    "core-js": "^2.5.0",
+    "cpy-cli": "^1.0.1",
+    "http-server": "^0.10.0",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "ts-loader": "^2.3.3",
+    "typescript": "^2.4.2",
+    "webpack": "^3.5.5",
+    "whatwg-fetch": "^2.0.3"
+  }
+}
